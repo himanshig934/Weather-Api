@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body>
+    
+<div class="container h-[100vh]">
+    <div class="container max-w-7xl justify-center items-center m-auto pt-[8%]">
+
+       <div class="container max-w-sm justify-cener items-center m-auto pt-16 pb-[6%] px-8 shadow shadow-2xl rounded-2xl text-center border border-[#eeeeee]">
+
+        <div class="img pb-[20px]">
+                <img src="sunny.png" alt="" srcset="" class="size-10 m-auto">
+        </div>
+
+        <h2 class="text-center text-[20px] font-medium pb-[20px]">Weather App</h2>
+
+        <form action="index.html" method="get">
+          <label class="block text-gray-900 text-[16px] font-normal mb-2 text-left" for="username">Location</label>
+            <input class="appearance-none border rounded w-full py-2 px-3 leading-tight border border-[#b4b4b4]" id="inputvalue" type="text" placeholder="location">
+            <button class="bg-[#0d6efd] text-white px-8 py-2 mt-6 rounded-[4px] cursor-pointer" id="btn">Get Weather</button>
+            </form>
+            
+            <div class="para mt-6">
+                <p class="text">Enter a location to check the current weather</p>
+            </div>
+       </div>
+
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
